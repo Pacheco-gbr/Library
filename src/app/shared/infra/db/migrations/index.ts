@@ -1,3 +1,3 @@
-import { CreateTableUsers1683413661379 } from "./1683413661379-CreateTableUsers";
+import { CreateTableLibrarians1683414478956 } from "./1683414478956-CreateTableLibrarians";
 
-export default [CreateTableUsers1683413661379];
+export default [CreateTableLibrarians1683414478956];
