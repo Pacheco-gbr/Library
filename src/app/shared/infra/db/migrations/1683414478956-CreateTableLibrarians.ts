@@ -36,7 +36,7 @@ export class CreateTableLibrarians1683414478956 implements MigrationInterface {
                     },
                     {
                         name: "created_at",
-                        type: "varchar",
+                        type: "timestamp",
                         isNullable: false,
                     },
                     {

@@ -31,7 +31,7 @@ export class CreateTableStudents1683489237495 implements MigrationInterface {
                     },
                     {
                         name: "created_at",
-                        type: "varchar",
+                        type: "timestamp",
                         isNullable: false,
                     },
                     {
