@@ -15,6 +15,14 @@ export class LibrarianRepository {
         return this.directionToLibrarianDetail(entity);
     }
 
+    async existLibrarianByEmail(email: string): Promise<boolean> {
+        const librarian = await this._repository.exist({
+            where: {
+                email,
+            },
+        });
+    }
+
     private directionToLibrarianDetail(entity: LibrarianEntity) {
         return {
             id: entity.id,
