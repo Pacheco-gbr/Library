@@ -21,6 +21,7 @@ export class LibrarianRepository {
                 email,
             },
         });
+        return librarian;
     }
 
     private directionToLibrarianDetail(entity: LibrarianEntity) {
