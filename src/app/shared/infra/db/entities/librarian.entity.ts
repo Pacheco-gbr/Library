@@ -1,5 +1,6 @@
-import { BaseEntity, Column, Entity, JoinColumn, OneToOne } from "typeorm";
+import { Column, Entity, JoinColumn, OneToOne } from "typeorm";
 import { LoanEntity } from "./loan.entity";
+import BaseEntity from "./base-entity.entity";
 
 @Entity({ name: "librarians" })
 export class LibrarianEntity extends BaseEntity {
